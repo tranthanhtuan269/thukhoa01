@@ -1,0 +1,24 @@
+2015/10/15 04:00:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php(141): CWebApplication->runController('yii')
+#1 C:\xampp\htdocs\thukhoa01\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\thukhoa01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thukhoa01/index.php?r=yii
+---
+2015/10/15 04:00:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\thukhoa01\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\thukhoa01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thukhoa01/index.php?r=gii
+---
+2015/10/15 04:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giix".' in C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\thukhoa01\framework\web\CWebApplication.php(141): CWebApplication->runController('giix')
+#1 C:\xampp\htdocs\thukhoa01\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\thukhoa01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thukhoa01/index.php?r=giix
+---
