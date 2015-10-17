@@ -41,7 +41,24 @@
 .glyphicon-bell{
 	float: right;
 }
-
 .menu-left{
 	background-color:#ddd;
+}
+.main-head{
+	font-size: 22px;
+	padding: 5px;
+	border-top:2px solid #000;
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+}
+.main-sub-head{
+	font-size: 18px;
+	padding: 4px;
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+}
+.main-body{
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+	min-height: 351px;
 }

@@ -13,28 +13,28 @@
 		<div class="block-menu">
 			<div class="header-menu">Lớp học</div>
 			<div class="content-menu">
-				<div class="node-menu">Góc học tập</div>
-				<div class="node-menu">Cố vấn học tập</div>
-				<div class="node-menu">Hỏi đáp</div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Góc học tập',array('gochoctap/index')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Cố vấn học tập',array('covanhoctap/index')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Hỏi đáp',array('hoidap/index')); ?></div>
 			</div>
 		</div>
 		<div class="block-menu">
 			<div class="header-menu">Khóa học</div>
 			<div class="content-menu">
-				<div class="node-menu">Toán</div>
-				<div class="node-menu">Tiếng Anh</div>
-				<div class="node-menu">Vật Lý</div>
-				<div class="node-menu">Hóa Học</div>
-				<div class="node-menu">Sinh Học</div>
-				<div class="node-menu">Ngữ Văn</div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Toán',array('khoahoc/toan')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Tiếng Anh',array('khoahoc/tienganh')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Vật Lý',array('khoahoc/vatly')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Hóa Học',array('khoahoc/hoahoc')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Sinh Học',array('khoahoc/sinhhoc')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Ngữ Văn',array('khoahoc/nguvan')); ?></div>
 			</div>
 		</div>
 		<div class="block-menu">
 			<div class="header-menu">Học nhóm</div>
 			<div class="content-menu">
-				<div class="node-menu">Following</div>
-				<div class="node-menu">Follower</div>
-				<div class="node-menu">Suggestion</div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Following',array('Following/index')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Follower',array('Follower/index')); ?></div>
+				<div class="node-menu"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo CHtml::link('Suggestion',array('Suggestion/index')); ?></div>
 			</div>
 		</div>
 	</div>
