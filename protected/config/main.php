@@ -8,7 +8,6 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
-	'theme'=>'thukhoa',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -17,11 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-        'ext.giix-components.*',
-        'application.modules.user.models.*',
-        'application.modules.user.components.*',
-        'application.modules.rights.*',
-        'application.modules.rights.components.*',
+                'ext.giix-components.*',
 	),
 
 	'modules'=>array(
@@ -35,30 +30,15 @@ return array(
                             'ext.giix-core', // giix generators
                     ),
 		),
-		'user'=>array(
-                'tableUsers' => 'users',
-                'tableProfiles' => 'profiles',
-                'tableProfileFields' => 'profiles_fields',
-        ),
-        'rights'=>array(
-                'install'=>true,
-        ),
 	),
 
 	// application components
 	'components'=>array(
 
 		'user'=>array(
-                'class'=>'RWebUser',
-                // enable cookie-based authentication
-                'allowAutoLogin'=>true,
-                'loginUrl'=>array('/user/login'),
-        ),
-        'authManager'=>array(
-                'class'=>'RDbAuthManager',
-                'connectionID'=>'db',
-                'defaultRoles'=>array('Authenticated', 'Guest'),
-        ),
+			// enable cookie-based authentication
+			'allowAutoLogin'=>true,
+		),
 
 		// uncomment the following to enable URLs in path-format
 		/*
